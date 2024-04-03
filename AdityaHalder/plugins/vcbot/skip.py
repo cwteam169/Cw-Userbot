@@ -27,11 +27,11 @@ async def skip_stream(client, message):
             type = check["type"]
             stream = await run_stream(file, type)
             await call.change_stream(chat_id, stream)
-            return await eor(message, "**Stream Skipped!**")
+            return await eor(message, "**SHIVANG BABU Stream Skipped!**")
         elif a.status == "not_playing":
-            await eor(message, "**Nothing Playing!**")
+            await eor(message, "**SHIVANG BABU Nothing Playing!**")
     except GroupCallNotFound:
-        await eor(message, "**I am Not in VC!**")
+        await eor(message, "**SHIVANG BABU Not in VC!**")
     except Exception as e:
         print(f"Error: {e}")
 
@@ -60,11 +60,11 @@ async def skip_stream_(client, message):
             type = check["type"]
             stream = await run_stream(file, type)
             await call.change_stream(chat_id, stream)
-            return await eor(message, "**Stream Skipped!**")
+            return await eor(message, "**SHIVANG BABU Stream Skipped!**")
         elif a.status == "not_playing":
-            await eor(message, "**Nothing Playing!**")
+            await eor(message, "**SHIVANG BABU Nothing Playing!**")
     except GroupCallNotFound:
-        await eor(message, "**I am Not in VC!**")
+        await eor(message, "**SHIVANG BABU Not in VC!**")
     except Exception as e:
         print(f"Error: {e}")
 
