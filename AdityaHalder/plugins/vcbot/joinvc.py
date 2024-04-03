@@ -14,10 +14,10 @@ async def join_vc(client, message):
             or a.status == "playing"
             or a.status == "paused"
         ):
-            await eor(message, "**Already Joined!**")
+            await eor(message, "**SHIVANG BABU Already Joined!**")
     except GroupCallNotFound:
         await call.join_group_call(chat_id)
-        await eor(message, "**Joined VC!**")
+        await eor(message, "**SHIVANG BABU Joined VC!**")
     except Exception as e:
         print(f"Error: {e}")
 
@@ -37,9 +37,9 @@ async def join_vc_(client, message):
             or a.status == "playing"
             or a.status == "paused"
         ):
-            await eor(message, "**Already Joined!**")
+            await eor(message, "**SHIVANG BABU Already Joined!**")
     except GroupCallNotFound:
         await call.join_group_call(chat_id)
-        await eor(message, "**Joined VC!**")
+        await eor(message, "**SHIVANG BABU JOIN VC!**")
     except Exception as e:
         print(f"Error: {e}")
